@@ -9,8 +9,6 @@
 1) Nearest Station; with no considerations about the real path
 2) Nearest Train;
 3) Minimum waiting time; 
-to calcolate it i have to consider the schedule, and make the differenze betwean the schedule time, the actual time, and eventualy i have to
-sum the delay
 4) Destinations included in my railway pass paiment;
 5) Cost of the rail_pass according to the zone;
 6) Schedule time of the trains on every single station, according to their final destination 
@@ -31,7 +29,7 @@ information needed. This database has to be structured on a way that considers t
 name, city, zone, coordinates, destinations (arrivals and departures),
 also train schedule and time organisation */
 
-/* Zone separation - this type of information is going to be used for the taxe calculations. We are going to devide the territory on this way:
+/* Zone separation - this type of information is going to be used for the tax calculations. We are going to devide the territory on this way:
 1) Central Zone: 1
 2) Periphery Zone: 2
 3) Province Zone: 3
